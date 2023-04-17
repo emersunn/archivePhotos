@@ -11,7 +11,7 @@ This Python script copies image files from Photos.app to a destination directory
 ## Prior to use 
 
 - Make sure your photo library is up-to-date. In Photos.app go to Settings → iCloud → Download originals to this Mac. 
-- While still in Photos.app, click on Library → all photos to check the download progres. Progress shows at the bottom of the window.
+- While still in Photos.app, click on Library → All Photos to check the download progres. Progress shows at the bottom of the window.
 - Once all photos are downloaded execute the script. 
 
 ## Usage
