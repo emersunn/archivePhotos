@@ -5,7 +5,7 @@ This Python script copies image files from Photos.app to a destination directory
 ## Requirements
 
 - Python 3.6 or higher
-- Local drive large enough to hold your Photo library
+- Local drive large enough to hold your Photos library
 - External drive large enough to handle the export
 
 ## Prior to use 
