@@ -5,11 +5,14 @@ This Python script copies image files from a source directory to a destination d
 ## Requirements
 
 - Python 3.6 or higher
+- Local drive large enough to hold your Photo library
+- External drive large enough to handle the export
 
 ## Prior to use 
 
-- Make sure your photo library is up-to-date. Go to Settings → iCloud → Download originals to this Mac
-- In Photos.app, click on Library → all photos to check the download progress
+- Make sure your photo library is up-to-date. In Photos.app go to Settings → iCloud → Download originals to this Mac
+- While still in Photos.app, click on Library → all photos to check the download progress
+- Once all photos are downloaded execute the script
 
 ## Usage
 
@@ -20,5 +23,5 @@ This Python script copies image files from a source directory to a destination d
 5. Run the script using the following command:
 
 ```bash
-python copy_rename_images.py
+python copy_images.py
 ```
