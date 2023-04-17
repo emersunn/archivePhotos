@@ -6,7 +6,7 @@ This Python script copies image files from a source directory to a destination d
 
 - Python 3.6 or higher
 
-##Prior to use 
+## Prior to use 
 
 - Make sure your photo library is up-to-date. Go to Settings → iCloud → Download originals to this Mac
 - In Photos.app, click on Library → all photos to check the download progress
