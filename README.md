@@ -5,14 +5,14 @@ This Python script copies image files from Photos.app to a destination directory
 ## Requirements
 
 - Python 3.6 or higher
-- Local drive large enough to hold your Photos library
-- External drive large enough to handle the export
+- Local drive large enough to hold your Photos library. 
+- External drive large enough to handle the export. 
 
 ## Prior to use 
 
-- Make sure your photo library is up-to-date. In Photos.app go to Settings → iCloud → Download originals to this Mac
-- While still in Photos.app, click on Library → all photos to check the download progress
-- Once all photos are downloaded execute the script
+- Make sure your photo library is up-to-date. In Photos.app go to Settings → iCloud → Download originals to this Mac. 
+- While still in Photos.app, click on Library → all photos to check the download progres. Progress shows at the bottom of the window.
+- Once all photos are downloaded execute the script. 
 
 ## Usage
 
