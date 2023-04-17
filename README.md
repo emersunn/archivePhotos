@@ -17,4 +17,3 @@ This Python script copies image files from a source directory to a destination d
 ```bash
 python copy_rename_images.py
 ```
-This script will copy and rename the image files (based on the specified file extensions) from the "Photos Library.photoslibrary" folder to the "OrganizedPhotos" folder on the "Untitled" external drive. The images will be renamed sequentially as image1, image2, image3, and so on.
