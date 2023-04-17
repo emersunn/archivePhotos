@@ -10,7 +10,7 @@ dest_dir = "/Volumes/driveName/ApplePhotosExport"
 all_files = [f for f in Path(source_dir).rglob("*") if f.is_file()]
 
 # Filter only image files
-image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff'}
+image_extensions = {'.jpg', '.jpeg', '.png', '.bmp', '.heic'}
 image_files = [f for f in all_files if f.suffix.lower() in image_extensions]
 
 # Create the destination directory if it doesn't exist
