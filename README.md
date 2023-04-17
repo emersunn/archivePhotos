@@ -1,4 +1,4 @@
-# Archive Photos.app
+# Archive Photos
 
 This Python script copies image files from Photos.app to a destination directory, renaming them sequentially as image1, image2, image3, and so on.
 
