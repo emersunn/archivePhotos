@@ -9,7 +9,7 @@ This Python script copies image files from a source directory to a destination d
 ## Usage
 
 1. Update the `source_dir` variable in the script with the path to your "Photos Library.photoslibrary" folder.
-2. Update the `dest_dir` variable in the script with the path to your external, followed by the "OrganizedPhotos" folder.
+2. Update the `dest_dir` variable in the script with the path to your external, followed by the "ApplePhotosExport" folder.
 3. Save the script as `copy_images.py`.
 4. Open a terminal and navigate to the directory containing the script.
 5. Run the script using the following command:
