@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Set the source and destination directories
 source_dir = "/Users/yourUsername/Pictures/Photos Library.photoslibrary/originals"
-dest_dir = "/Volumes/driveNameHere/OriginalPhotos"
+dest_dir = "/Volumes/yourDriveName/OriginalPhotos"
 
 # Get all files in the source directory
 all_files = [f for f in Path(source_dir).rglob("*") if f.is_file()]
