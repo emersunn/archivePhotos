@@ -25,3 +25,6 @@ This Python script copies image files from Photos.app to a destination directory
 ```bash
 python copy_images.py
 ```
+## After use
+
+- Be sure revert the preferences in Settings → iCloud → Optimize Mac Storage if you need to save space.
