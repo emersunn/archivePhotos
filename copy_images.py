@@ -3,14 +3,14 @@ import shutil
 from pathlib import Path
 
 # Set the source and destination directories
-source_dir = "/Users/username/Pictures/Photos Library.photoslibrary"
-dest_dir = "/Volumes/drivename/PhotosExport"
+source_dir = "/Users/yourUsername/Pictures/Photos Library.photoslibrary/originals"
+dest_dir = "/Volumes/driveNameHere/OriginalPhotos"
 
 # Get all files in the source directory
 all_files = [f for f in Path(source_dir).rglob("*") if f.is_file()]
 
 # Filter only image files
-image_extensions = {'.jpg', '.jpeg', '.png', '.bmp', '.heic'}
+image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff'}
 image_files = [f for f in all_files if f.suffix.lower() in image_extensions]
 
 # Create the destination directory if it doesn't exist
@@ -28,4 +28,4 @@ for img in image_files:
     # Increment the counter
     counter += 1
 
-print("Images copied and renamed successfully.")
+print("Original images copied and renamed successfully.")
