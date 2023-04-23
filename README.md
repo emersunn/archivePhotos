@@ -2,6 +2,10 @@
 
 This Python script copies image files from Photos.app to a destination directory, renaming them sequentially as image1, image2, image3, and so on.
 
+## Why?
+
+I don't trust Photos.app built-in export, if you are not careful you could end up with inferior jpegs. My method may be faster, but I have not tested it. I have 50GB of photos and it went pretty quick.
+
 ## Requirements
 
 - Python 3.6 or higher
