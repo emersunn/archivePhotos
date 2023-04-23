@@ -4,7 +4,7 @@ This Python script copies image files from Photos.app to a destination directory
 
 ## Why?
 
-I don't trust the Photos.app built-in export, if you are not careful you could end up with inferior jpegs. My method may be faster, but I have not tested it. I have 50GB of photos and it went pretty quick.
+I don't trust the Photos.app built-in export, if you are not careful you could end up with inferior jpegs. My method may be faster, but I have not tested the speed. I have 50GB of photos and it went pretty quick.
 
 ## Requirements
 
