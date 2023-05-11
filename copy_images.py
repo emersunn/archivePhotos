@@ -3,8 +3,8 @@ import shutil
 from pathlib import Path
 
 # Set the source and destination directories
-source_dir = "/Users/paulemerson/Pictures/Photos Library.photoslibrary/originals"
-dest_dir = "/Volumes/SSK2/OriginalPhotos"
+source_dir = "/Users/username/Pictures/Photos Library.photoslibrary/originals"
+dest_dir = "/Volumes/drivename/OriginalPhotos"
 
 # Get all files in the source directory
 all_files = [f for f in Path(source_dir).rglob("*") if f.is_file()]
