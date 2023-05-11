@@ -3,16 +3,16 @@ import shutil
 from pathlib import Path
 
 # Set the source and destination directories
-source_dir = "/Users/yourUsername/Pictures/Photos Library.photoslibrary/originals"
-dest_dir = "/Volumes/yourDriveName/OriginalPhotos"
+source_dir = "/Users/paulemerson/Pictures/Photos Library.photoslibrary/originals"
+dest_dir = "/Volumes/SSK2/OriginalPhotos"
 
 # Get all files in the source directory
 all_files = [f for f in Path(source_dir).rglob("*") if f.is_file()]
 
 # Filter only image files
-image_extensions = {'.jpg', '.jpeg', '.png', '.heic', '.bmp', '.tiff'}
+image_extensions = {'.jpg', '.cr2', '.arw', '.jpeg', '.png', '.heic', '.bmp', '.tiff'}
 image_files = [f for f in all_files if f.suffix.lower() in image_extensions]
-
+    
 # Create the destination directory if it doesn't exist
 os.makedirs(dest_dir, exist_ok=True)
 
